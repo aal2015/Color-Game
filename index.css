@@ -1,0 +1,85 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+#top-div {
+    background-color: rgb(100, 149, 237);
+    text-align: center;
+    /* height: 60px; */
+    color: white;
+    padding: 8px;
+    text-transform: uppercase;  
+}
+
+#top-div h2 {
+    margin: 0;
+}
+
+#stripe {
+    background-color: white;
+    padding: 0px 350px;
+    /* text-align: center; */
+}
+
+#stripe p {
+    display: inline-block;
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+}
+
+#container {
+    margin: 10px auto;
+    max-width: 810px;
+}
+
+#buttons {
+    display: inline-block;
+    float: right;
+}
+
+#reset {
+    display: inline;
+    /* float: left; */
+}
+
+.square {
+    height: 240px;
+    width: 240px;
+    border-radius: 30px;
+    margin:15px;
+    float: left;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    
+}
+
+#stripe p {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(100, 107, 237);
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    text-decoration: none;  
+    background-color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0;
+    color: rgb(100, 107, 237);
+}
+
+button:hover {
+    color:white;
+    background-color: rgb(89, 143, 243);
+}
+
+.selected {
+    color:white;
+    background-color: rgb(89, 143, 243);
+}
